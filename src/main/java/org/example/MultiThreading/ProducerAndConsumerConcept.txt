@@ -1,0 +1,11 @@
+The producer-consumer problem
+
+It is a classic synchronization problem in computer science, where multiple threads (producers) produce data items,
+and multiple threads (consumers) consume these items.
+
+
+Producer Thread------------------->[SHARED QUEUE]----------------->Consumer Thread
+
+Summary
+
+The problem lies in making sure that the producer won't try to add data into the buffer if it's full and that the consumer won't try to remove data from an empty buffer.

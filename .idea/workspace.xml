@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dce0d086-c49d-4e6c-b7b5-84ea60bdbdc2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MultiThreading/ExecutorService.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MultiThreading/ExecutorServiceConcept.java" afterDir="false" />
+    <list default="true" id="dce0d086-c49d-4e6c-b7b5-84ea60bdbdc2" name="Changes" comment="ExecutorService Concepts.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MultiThreading/ProducerAndConsumerConcept.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MultiThreading/ProducerConsumerConcept.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +40,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ProducerConsumerConcept">
     <configuration name="ExecutorServiceConcept" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.MultiThreading.ExecutorServiceConcept" />
       <module name="MultiThreading" />
@@ -60,8 +54,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProducerConsumerConcept" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.MultiThreading.ProducerConsumerConcept" />
+      <module name="MultiThreading" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.MultiThreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProducerConsumerConcept" />
         <item itemvalue="Application.ExecutorServiceConcept" />
       </list>
     </recent_temporary>
@@ -75,6 +83,14 @@
       <option name="presentableId" value="Default" />
       <updated>1712992225823</updated>
     </task>
+    <task id="LOCAL-00001" summary="ExecutorService Concepts.">
+      <created>1712994872412</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712994872412</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -87,5 +103,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ExecutorService Concepts." />
+    <option name="LAST_COMMIT_MESSAGE" value="ExecutorService Concepts." />
   </component>
 </project>
