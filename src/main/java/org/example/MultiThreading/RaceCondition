@@ -1,0 +1,7 @@
+A race condition in multithreading occurs when the behavior of a program depends on the relative timing
+or interleaving of multiple threads accessing shared resources.
+It leads to unpredictable and erroneous results because the outcome depends on which thread wins the "race" to
+access the shared resource.
+
+
+To prevent race conditions, synchronization mechanisms like locks or the synchronized Keyword,AtomicInteger and volatile can be used
