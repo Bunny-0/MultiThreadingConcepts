@@ -1,0 +1,24 @@
+JAVA EXECUTOR SERVICE.
+
+> It's a high-level concurrency utility
+
+> that provides a way to manage and execute tasks asynchronously in a pool of threads.
+
+> Executor Service abstracts away the complexity of thread management, making our lives as developers much ea:
+
+> Executor Service provides different implementations catering to various concurrency requirements:
+
+        Single Thread Executor: This Executor Service maintains a single thread for executing tasks sequentially.
+        It's useful for tasks that need to be executed in a specific order or when you want to ensure thread safety.
+
+        Fixed Thread Pool: The Fixed Thread Pool Executor Service maintains a fixed number of threads in its pool.
+        Once a task is submitted, it's executed by one of the available threads. If all threads are busy,
+        the task is queued until a thread becomes available.
+
+        Cached Thread Pool: Unlike the Fixed Thread Pool, the Cached Thread Pool Executor Service dynamically adjusts
+        the number of threads based on the workload. If a new task is submitted and no threads are available,
+        a new thread is created. Conversely, if a thread remains idle for a certain period, it's terminated and removed from
+        ThreadPool.
+
+While Executor Service is more abstract and easier to use,
+ThreadPoolExecutor offers greater flexibility and customization ptions.
