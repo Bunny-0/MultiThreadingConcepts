@@ -4,8 +4,14 @@ It is a classic synchronization problem in computer science, where multiple thre
 and multiple threads (consumers) consume these items.
 
 
+BlockingQueue : The term blocking queue comes from the fact that the Java BlockingQueue is capable of blocking the threads
+that try to insert or take elements from the queue. For instance,
+if a thread tries to take an element and there are none left in the queue, the thread can be blocked until
+there is an element to take. Whether or not the calling thread is blocked depends on what methods you call on the BlockingQueue.
+
+
 Producer Thread------------------->[SHARED QUEUE]----------------->Consumer Thread
 
 Summary
 
-The problem lies in making sure that the producer won't try to add data into the buffer if it's full and that the consumer won't try to remove data from an empty buffer.
+The problem lies in making sure that the producer won't try to add data into the buffer if it's full and that the consumer won't try to remove data from an empty buffer.

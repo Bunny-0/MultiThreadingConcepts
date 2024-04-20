@@ -18,30 +18,30 @@ class SharedCounter{
 //        this.count--;
 //    }
 
-        int count;
-
-    public int getcount(){
-        return count;
-    }
-    public synchronized void increment(){
-        this.count++;
-    }
-    public void decrement(){
-        this.count--;
-    }
-
-
-//    AtomicInteger count=new AtomicInteger(0);
+//        int count;
 //
 //    public int getcount(){
-//        return count.get();
+//        return count;
 //    }
-//    public  void increment(){
-//        count.incrementAndGet();
+//    public synchronized void increment(){
+//        this.count++;
 //    }
 //    public void decrement(){
-//        count.decrementAndGet();
+//        this.count--;
 //    }
+
+
+    AtomicInteger count=new AtomicInteger(0);
+
+    public int getcount(){
+        return count.get();
+    }
+    public  void increment(){
+        count.incrementAndGet();
+    }
+    public void decrement(){
+        count.decrementAndGet();
+    }
 }
 
 public class RaceConditionConcepts {
