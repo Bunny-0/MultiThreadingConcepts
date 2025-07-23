@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dce0d086-c49d-4e6c-b7b5-84ea60bdbdc2" name="Changes" comment="Recap organized Threading concept">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Threading_2_0/Notes.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Threading_2_0/Syncronisation/Extrinsic/ReentrantExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Threading_2_0/Syncronisation/Extrinsic/UnfairLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Threading_2_0/Syncronisation/Extrinsic/Withdraw.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Threading_2_0/Syncronisation/Extrinsic/lockMain.java" afterDir="false" />
+    <list default="true" id="dce0d086-c49d-4e6c-b7b5-84ea60bdbdc2" name="Changes" comment="CountDownLatch in Executor Framework">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Threading_2_0/Executors/CompletableFutureClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Threading_2_0/Executors/CyclicBarrierService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,13 +41,13 @@
     &quot;last_opened_file_path&quot;: &quot;D:/MultiThreadingConcepts&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.UnfairLock">
-    <configuration name="ReentrantExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Threading_2_0.Syncronisation.Extrinsic.ReentrantExample" />
+  <component name="RunManager" selected="Application.CompletableFutureClass">
+    <configuration name="CompletableFutureClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Threading_2_0.Executors.CompletableFutureClass" />
       <module name="MultiThreadingConcepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Threading_2_0.Syncronisation.Extrinsic.*" />
+          <option name="PATTERN" value="org.example.Threading_2_0.Executors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -58,12 +55,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadingMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Threading_2_0.ThreadingMain" />
+    <configuration name="CountDownLatcherService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Threading_2_0.Executors.CountDownLatcherService" />
       <module name="MultiThreadingConcepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Threading_2_0.*" />
+          <option name="PATTERN" value="org.example.Threading_2_0.Executors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,12 +68,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnfairLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Threading_2_0.Syncronisation.Extrinsic.UnfairLock" />
+    <configuration name="CyclicBarrierService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Threading_2_0.Executors.CyclicBarrierService" />
       <module name="MultiThreadingConcepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Threading_2_0.Syncronisation.Extrinsic.*" />
+          <option name="PATTERN" value="org.example.Threading_2_0.Executors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lockMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Threading_2_0.Syncronisation.Extrinsic.lockMain" />
+    <configuration name="ExecutorFrameWork" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Threading_2_0.Executors.ExecutorFrameWork" />
       <module name="MultiThreadingConcepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Threading_2_0.Syncronisation.Extrinsic.*" />
+          <option name="PATTERN" value="org.example.Threading_2_0.Executors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.example.Threading_2_0.Syncronisation.Intrinsic.SyncMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Threading_2_0.Syncronisation.Intrinsic.SyncMain" />
+    <configuration name="ScheduledExecutorServices" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Threading_2_0.Executors.ScheduledExecutorServices" />
       <module name="MultiThreadingConcepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Threading_2_0.Syncronisation.Intrinsic.*" />
+          <option name="PATTERN" value="org.example.Threading_2_0.Executors.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UnfairLock" />
-        <item itemvalue="Application.lockMain" />
-        <item itemvalue="Application.ReentrantExample" />
-        <item itemvalue="Application.org.example.Threading_2_0.Syncronisation.Intrinsic.SyncMain" />
-        <item itemvalue="Application.ThreadingMain" />
+        <item itemvalue="Application.CompletableFutureClass" />
+        <item itemvalue="Application.CyclicBarrierService" />
+        <item itemvalue="Application.CountDownLatcherService" />
+        <item itemvalue="Application.ExecutorFrameWork" />
+        <item itemvalue="Application.ScheduledExecutorServices" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +168,56 @@
       <option name="project" value="LOCAL" />
       <updated>1753152935649</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Extrinsive Locking Threading concept">
+      <created>1753164043838</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1753164043838</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Extrinsive Locking Threading concept">
+      <created>1753207276457</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1753207276457</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Extrinsive Locking Threading concept">
+      <created>1753208920977</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1753208920977</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Executor Framework concept">
+      <created>1753210642978</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1753210642978</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Future class in Executor Framework concept">
+      <created>1753237182488</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1753237182489</updated>
+    </task>
+    <task id="LOCAL-00012" summary="ScheduledExecutors in Executor Framework">
+      <created>1753237757902</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1753237757902</updated>
+    </task>
+    <task id="LOCAL-00013" summary="CountDownLatch in Executor Framework">
+      <created>1753239206274</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1753239206274</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -191,6 +237,11 @@
     <MESSAGE value="Race Condition Issues in multiThreading" />
     <MESSAGE value="Basic Threading concept" />
     <MESSAGE value="Recap organized Threading concept" />
-    <option name="LAST_COMMIT_MESSAGE" value="Recap organized Threading concept" />
+    <MESSAGE value="Extrinsive Locking Threading concept" />
+    <MESSAGE value="Executor Framework concept" />
+    <MESSAGE value="Future class in Executor Framework concept" />
+    <MESSAGE value="ScheduledExecutors in Executor Framework" />
+    <MESSAGE value="CountDownLatch in Executor Framework" />
+    <option name="LAST_COMMIT_MESSAGE" value="CountDownLatch in Executor Framework" />
   </component>
 </project>
