@@ -6,12 +6,13 @@ public class ExecutorFrameWork {
 
     public static void main(String[] args) throws InterruptedException, ExecutionException {
         long startTime = System.currentTimeMillis();
-       ExecutorService executorService= Executors.newFixedThreadPool(3);
+//       ExecutorService executorService= Executors.newFixedThreadPool(3);
+       ExecutorService executorService1=Executors.newCachedThreadPool();
 
        for(int i=1;i<9;i++){
            int finalI = i;
 
-           Future<?> future = executorService.submit(() -> {
+           Future<?> future = executorService1.submit(() -> {
             long data = factorial(finalI);
             System.out.println("Factorial of " + finalI + " is: " + data);
        });
@@ -19,9 +20,9 @@ public class ExecutorFrameWork {
            System.out.println("Total time " + (System.currentTimeMillis() - startTime));
 
        }
-        executorService.shutdown();
+        executorService1.shutdown();
 
-       while(!executorService.awaitTermination(10, TimeUnit.MILLISECONDS)){
+       while(!executorService1.awaitTermination(10, TimeUnit.MILLISECONDS)){
            System.out.println("Waiting for tasks to complete...");
        }
 
