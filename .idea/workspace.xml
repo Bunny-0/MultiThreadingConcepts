@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dce0d086-c49d-4e6c-b7b5-84ea60bdbdc2" name="Changes" comment="CountDownLatch in Executor Framework">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Threading_2_0/Executors/CompletableFutureClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Threading_2_0/Executors/CyclicBarrierService.java" afterDir="false" />
+    <list default="true" id="dce0d086-c49d-4e6c-b7b5-84ea60bdbdc2" name="Changes" comment="CompletableFuture in Executor Framework">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Revision/ExecuterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Revision/Latcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Revision/Locking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Revision/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Revision/ReadWriteLockingMech.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Threading_2_0/Executors/Futures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Threading_2_0/Executors/Futures.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,9 +45,22 @@
     &quot;last_opened_file_path&quot;: &quot;D:/MultiThreadingConcepts&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.CompletableFutureClass">
-    <configuration name="CompletableFutureClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Threading_2_0.Executors.CompletableFutureClass" />
+  <component name="RunManager" selected="Application.Latcher">
+    <configuration name="ExecuterService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Revision.ExecuterService" />
+      <module name="MultiThreadingConcepts" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.Revision.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Futures" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Threading_2_0.Executors.Futures" />
       <module name="MultiThreadingConcepts" />
       <extension name="coverage">
         <pattern>
@@ -55,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountDownLatcherService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Threading_2_0.Executors.CountDownLatcherService" />
+    <configuration name="Latcher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Revision.Latcher" />
       <module name="MultiThreadingConcepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Threading_2_0.Executors.*" />
+          <option name="PATTERN" value="org.example.Revision.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CyclicBarrierService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Threading_2_0.Executors.CyclicBarrierService" />
+    <configuration name="Locking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Revision.Locking" />
       <module name="MultiThreadingConcepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Threading_2_0.Executors.*" />
+          <option name="PATTERN" value="org.example.Revision.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,25 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExecutorFrameWork" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Threading_2_0.Executors.ExecutorFrameWork" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Revision.Main" />
       <module name="MultiThreadingConcepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Threading_2_0.Executors.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ScheduledExecutorServices" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Threading_2_0.Executors.ScheduledExecutorServices" />
-      <module name="MultiThreadingConcepts" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.Threading_2_0.Executors.*" />
+          <option name="PATTERN" value="org.example.Revision.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CompletableFutureClass" />
-        <item itemvalue="Application.CyclicBarrierService" />
-        <item itemvalue="Application.CountDownLatcherService" />
-        <item itemvalue="Application.ExecutorFrameWork" />
-        <item itemvalue="Application.ScheduledExecutorServices" />
+        <item itemvalue="Application.Latcher" />
+        <item itemvalue="Application.ExecuterService" />
+        <item itemvalue="Application.Locking" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Futures" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1753239206274</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="CompletableFuture in Executor Framework">
+      <created>1753240501676</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1753240501676</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -242,6 +253,7 @@
     <MESSAGE value="Future class in Executor Framework concept" />
     <MESSAGE value="ScheduledExecutors in Executor Framework" />
     <MESSAGE value="CountDownLatch in Executor Framework" />
-    <option name="LAST_COMMIT_MESSAGE" value="CountDownLatch in Executor Framework" />
+    <MESSAGE value="CompletableFuture in Executor Framework" />
+    <option name="LAST_COMMIT_MESSAGE" value="CompletableFuture in Executor Framework" />
   </component>
 </project>

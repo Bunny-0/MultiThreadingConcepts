@@ -26,6 +26,7 @@ public class Futures {
             System.out.println("Callable3 is executing");
             return 44;
         };
+        System.out.println("after treads are done executing");
 
         List<Callable<Integer>> ll= Arrays.asList(callable,callable1,callable2);
         List<Future<Integer>> future=executorService.invokeAll(ll,4, TimeUnit.SECONDS);
