@@ -4,20 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dce0d086-c49d-4e6c-b7b5-84ea60bdbdc2" name="Changes" comment="Revision">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Revision/Hashing/Calling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Revision/Hashing/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Revision/Iterator/Transaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Revision/Iterator/interativeClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Revision/comparision/Transaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Revision/comparision/comparision.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Revision/coping/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Revision/coping/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Revision_2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Revision_2/ProducerConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Revision_2/ReadWriteLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Revision_2/locking.java" afterDir="false" />
+    <list default="true" id="dce0d086-c49d-4e6c-b7b5-84ea60bdbdc2" name="Changes" comment="miscellaneous topics">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Revision/Iterator/interativeClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Revision/Iterator/interativeClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +45,7 @@
       <recent name="org.example.Revision.Iterator" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.comparision">
+  <component name="RunManager" selected="Application.interativeClass">
     <configuration name="Calling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Revision.Hashing.Calling" />
       <module name="MultiThreadingConcepts" />
@@ -109,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="locking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Revision_2.locking" />
+    <configuration name="interativeClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Revision.Iterator.interativeClass" />
       <module name="MultiThreadingConcepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Revision_2.*" />
+          <option name="PATTERN" value="org.example.Revision.Iterator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.interativeClass" />
         <item itemvalue="Application.comparision" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Calling" />
         <item itemvalue="Application.ReadWriteLock" />
-        <item itemvalue="Application.locking" />
       </list>
     </recent_temporary>
   </component>
@@ -246,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1755340839712</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="miscellaneous topics">
+      <created>1756890509343</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1756890509343</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -273,6 +269,7 @@
     <MESSAGE value="CountDownLatch in Executor Framework" />
     <MESSAGE value="CompletableFuture in Executor Framework" />
     <MESSAGE value="Revision" />
-    <option name="LAST_COMMIT_MESSAGE" value="Revision" />
+    <MESSAGE value="miscellaneous topics" />
+    <option name="LAST_COMMIT_MESSAGE" value="miscellaneous topics" />
   </component>
 </project>
