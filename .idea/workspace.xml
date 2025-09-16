@@ -5,8 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dce0d086-c49d-4e6c-b7b5-84ea60bdbdc2" name="Changes" comment="miscellaneous topics">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MultiThreading/AtomicClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MultiThreading/Sync.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MultiThreading/volatility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Revision/DesignPattern/Singleton/SIngletonClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Revision/DesignPattern/Singleton/SingletonDesign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Revision/OOP/Check.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Revision/OOP/Copy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Revision/OOP/CustomException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Revision/OOP/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Revision/OOP/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Revision/OOP/EmployeeControllerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Revision/OOP/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Revision/OOP/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Revision/OOP/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Revision/OOP/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Revision/OOP/Single.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Revision/OOP/Worker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Revision/Iterator/interativeClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Revision/Iterator/interativeClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +33,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -37,7 +56,8 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Hewlett Packard/Downloads/demo (2)/demo&quot;
+    &quot;last_opened_file_path&quot;: &quot;D:/MultiThreadingConcepts/src/main/java/org/example/Revision/OOP/EmployeeController.java&quot;,
+    &quot;two.files.diff.last.used.file&quot;: &quot;D:/MultiThreadingConcepts/src/main/java/org/example/Revision/OOP/EmployeeController.java&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -45,13 +65,13 @@
       <recent name="org.example.Revision.Iterator" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.interativeClass">
-    <configuration name="Calling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Revision.Hashing.Calling" />
+  <component name="RunManager" selected="Application.Copy">
+    <configuration name="Copy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Revision.OOP.Copy" />
       <module name="MultiThreadingConcepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Revision.Hashing.*" />
+          <option name="PATTERN" value="org.example.Revision.OOP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -59,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Revision.coping.Main" />
+    <configuration name="EmployeeControllerImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Revision.OOP.EmployeeControllerImpl" />
       <module name="MultiThreadingConcepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Revision.coping.*" />
+          <option name="PATTERN" value="org.example.Revision.OOP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReadWriteLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Revision_2.ReadWriteLock" />
+    <configuration name="EmployeeServiceImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Revision.OOP.EmployeeServiceImpl" />
       <module name="MultiThreadingConcepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Revision_2.*" />
+          <option name="PATTERN" value="org.example.Revision.OOP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="comparision" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Revision.comparision.comparision" />
+    <configuration name="Mains" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.MultiThreading.Mains" />
       <module name="MultiThreadingConcepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Revision.comparision.*" />
+          <option name="PATTERN" value="org.example.MultiThreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="interativeClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Revision.Iterator.interativeClass" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.MultiThreading.Test" />
       <module name="MultiThreadingConcepts" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Revision.Iterator.*" />
+          <option name="PATTERN" value="org.example.MultiThreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.interativeClass" />
-        <item itemvalue="Application.comparision" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Calling" />
-        <item itemvalue="Application.ReadWriteLock" />
+        <item itemvalue="Application.Copy" />
+        <item itemvalue="Application.EmployeeServiceImpl" />
+        <item itemvalue="Application.EmployeeControllerImpl" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Mains" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1756890509343</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="miscellaneous topics">
+      <created>1756916911718</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1756916911718</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
