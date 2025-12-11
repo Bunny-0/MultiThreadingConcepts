@@ -15,10 +15,13 @@ public class comparision {
                 new Transaction(2000,"2022-12-31","T3","E","F")
         ));
 
+        Comparator<Transaction> txnDesc=(a,b)->Double.compare(a.amount,b.amount);
+        Collections.sort(transactions,txnDesc);
+
 //        Collections.sort(transactions);
 //        System.out.println(transactions);
 
-        Comparator<Transaction> amountDesc = (t1, t2) -> Double.compare(t1.amount, t2.amount);
+        Comparator<Transaction> amountDesc = (t1, t2) -> Double.compare(t2.amount, t1.amount);
         Collections.sort(transactions, amountDesc);
         System.out.println(transactions);
     }

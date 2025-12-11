@@ -5,25 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dce0d086-c49d-4e6c-b7b5-84ea60bdbdc2" name="Changes" comment="miscellaneous topics">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MultiThreading/AtomicClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MultiThreading/Sync.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MultiThreading/volatility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Revision/DesignPattern/Singleton/SIngletonClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Revision/DesignPattern/Singleton/SingletonDesign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Revision/OOP/Check.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Revision/OOP/Copy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Revision/OOP/CustomException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Revision/OOP/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Revision/OOP/EmployeeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Revision/OOP/EmployeeControllerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Revision/OOP/EmployeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Revision/OOP/EmployeeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Revision/OOP/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Revision/OOP/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Revision/OOP/Single.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Revision/OOP/Worker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Interview_prep/Completable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Interview_prep/Copy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Interview_prep/Counters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Interview_prep/EvenOdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Interview_prep/Lambda/Anagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Interview_prep/Lambda/EmployeeDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Interview_prep/Lambda/EvenOdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Interview_prep/Lambda/Palindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Interview_prep/Lambda/RemoveDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Interview_prep/Lambda/Sort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Interview_prep/Lambda/SumOfDigits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Interview_prep/Lambda/findMax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Interview_prep/Lambda/map.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Interview_prep/Latcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Interview_prep/ProCon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Interview_prep/SIngkes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Interview_prep/Seq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Interview_prep/Single.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Interview_prep/Threading/ThreadImpl/CallableThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Interview_prep/Threading/ThreadImpl/RunnableThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Interview_prep/Threading/ThreadImpl/ThreadJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Interview_prep/lock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Interview_prep/pareable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Revision/comparision/comparision.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Revision/comparision/comparision.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,8 +40,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -45,33 +52,62 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2f2HOuS9WGidufmzGtm3GoUTS8Y" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/MultiThreadingConcepts/src/main/java/org/example/Revision/OOP/EmployeeController.java&quot;,
-    &quot;two.files.diff.last.used.file&quot;: &quot;D:/MultiThreadingConcepts/src/main/java/org/example/Revision/OOP/EmployeeController.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Anagram.executor": "Run",
+    "Application.Copy.executor": "Run",
+    "Application.Counters.executor": "Run",
+    "Application.EmployeeDto.executor": "Run",
+    "Application.EvenOdd (1).executor": "Run",
+    "Application.EvenOdd (2).executor": "Run",
+    "Application.EvenOdd (3).executor": "Run",
+    "Application.EvenOdd.executor": "Run",
+    "Application.Latcher.executor": "Run",
+    "Application.Palindrome.executor": "Run",
+    "Application.ProCon (1).executor": "Run",
+    "Application.ProCon (2).executor": "Run",
+    "Application.ProCon (3).executor": "Run",
+    "Application.ProCon.executor": "Run",
+    "Application.RemoveDuplicates.executor": "Run",
+    "Application.Seq.executor": "Run",
+    "Application.Sort.executor": "Run",
+    "Application.SumOfDigits.executor": "Run",
+    "Application.ThreadJava.executor": "Run",
+    "Application.comparision.executor": "Run",
+    "Application.findMax.executor": "Run",
+    "Application.map.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Hewlett Packard/Downloads/MultiThreadingConcepts",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "two.files.diff.last.used.file": "D:/MultiThreadingConcepts/src/main/java/org/example/Revision/OOP/EmployeeController.java"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.example.Revision.Iterator" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Copy">
-    <configuration name="Copy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Revision.OOP.Copy" />
-      <module name="MultiThreadingConcepts" />
+  <component name="RunManager" selected="Application.ThreadJava">
+    <configuration name="Anagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Interview_prep.Lambda.Anagram" />
+      <module name="MultiThreading" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Revision.OOP.*" />
+          <option name="PATTERN" value="org.example.Interview_prep.Lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeeControllerImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Revision.OOP.EmployeeControllerImpl" />
-      <module name="MultiThreadingConcepts" />
+    <configuration name="EmployeeDto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Interview_prep.Lambda.EmployeeDto" />
+      <module name="MultiThreading" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Revision.OOP.*" />
+          <option name="PATTERN" value="org.example.Interview_prep.Lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeeServiceImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Revision.OOP.EmployeeServiceImpl" />
-      <module name="MultiThreadingConcepts" />
+    <configuration name="SumOfDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Interview_prep.Lambda.SumOfDigits" />
+      <module name="MultiThreading" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Revision.OOP.*" />
+          <option name="PATTERN" value="org.example.Interview_prep.Lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +141,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Mains" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.MultiThreading.Mains" />
-      <module name="MultiThreadingConcepts" />
+    <configuration name="ThreadJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Interview_prep.Threading.ThreadImpl.ThreadJava" />
+      <module name="MultiThreading" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.MultiThreading.*" />
+          <option name="PATTERN" value="org.example.Interview_prep.Threading.ThreadImpl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +154,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.MultiThreading.Test" />
-      <module name="MultiThreadingConcepts" />
+    <configuration name="comparision" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Revision.comparision.comparision" />
+      <module name="MultiThreading" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.MultiThreading.*" />
+          <option name="PATTERN" value="org.example.Revision.comparision.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Copy" />
-        <item itemvalue="Application.EmployeeServiceImpl" />
-        <item itemvalue="Application.EmployeeControllerImpl" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Mains" />
+        <item itemvalue="Application.ThreadJava" />
+        <item itemvalue="Application.comparision" />
+        <item itemvalue="Application.EmployeeDto" />
+        <item itemvalue="Application.SumOfDigits" />
+        <item itemvalue="Application.Anagram" />
       </list>
     </recent_temporary>
   </component>
@@ -298,5 +334,20 @@
     <MESSAGE value="Revision" />
     <MESSAGE value="miscellaneous topics" />
     <option name="LAST_COMMIT_MESSAGE" value="miscellaneous topics" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Interview_prep/Lambda/Anagram.java</url>
+          <line>7</line>
+          <properties class="org.example.Interview_prep.Lambda.Anagram" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
