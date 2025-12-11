@@ -4,33 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dce0d086-c49d-4e6c-b7b5-84ea60bdbdc2" name="Changes" comment="miscellaneous topics">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Interview_prep/Completable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Interview_prep/Copy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Interview_prep/Counters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Interview_prep/EvenOdd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Interview_prep/Lambda/Anagram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Interview_prep/Lambda/EmployeeDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Interview_prep/Lambda/EvenOdd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Interview_prep/Lambda/Palindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Interview_prep/Lambda/RemoveDuplicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Interview_prep/Lambda/Sort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Interview_prep/Lambda/SumOfDigits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Interview_prep/Lambda/findMax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Interview_prep/Lambda/map.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Interview_prep/Latcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Interview_prep/ProCon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Interview_prep/SIngkes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Interview_prep/Seq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Interview_prep/Single.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Interview_prep/Threading/ThreadImpl/CallableThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Interview_prep/Threading/ThreadImpl/RunnableThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Interview_prep/Threading/ThreadImpl/ThreadJava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Interview_prep/lock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Interview_prep/pareable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="dce0d086-c49d-4e6c-b7b5-84ea60bdbdc2" name="Changes" comment="Java Imp Concepts">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Interview_prep/Threading/Executor/Completable_Future.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Revision/comparision/comparision.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Revision/comparision/comparision.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Interview_prep/Threading/ThreadImpl/ThreadJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Interview_prep/Threading/ThreadImpl/ThreadJava.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +26,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Bunny-0"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Bunny-0/MultiThreadingConcepts.git",
+    "accountId": "f396da89-5881-41e0-b32c-c97a588f9abd"
+  }
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -63,6 +52,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Anagram.executor": "Run",
+    "Application.Completable_Future.executor": "Run",
     "Application.Copy.executor": "Run",
     "Application.Counters.executor": "Run",
     "Application.EmployeeDto.executor": "Run",
@@ -102,12 +92,12 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.ThreadJava">
-    <configuration name="Anagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Interview_prep.Lambda.Anagram" />
+    <configuration name="Completable_Future" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Interview_prep.Threading.Executor.Completable_Future" />
       <module name="MultiThreading" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Interview_prep.Lambda.*" />
+          <option name="PATTERN" value="org.example.Interview_prep.Threading.Executor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,10 +160,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.ThreadJava" />
+        <item itemvalue="Application.Completable_Future" />
         <item itemvalue="Application.comparision" />
         <item itemvalue="Application.EmployeeDto" />
         <item itemvalue="Application.SumOfDigits" />
-        <item itemvalue="Application.Anagram" />
       </list>
     </recent_temporary>
   </component>
@@ -305,7 +295,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756916911718</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Java Imp Concepts">
+      <option name="closed" value="true" />
+      <created>1765421062291</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1765421062291</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -333,7 +331,8 @@
     <MESSAGE value="CompletableFuture in Executor Framework" />
     <MESSAGE value="Revision" />
     <MESSAGE value="miscellaneous topics" />
-    <option name="LAST_COMMIT_MESSAGE" value="miscellaneous topics" />
+    <MESSAGE value="Java Imp Concepts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java Imp Concepts" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

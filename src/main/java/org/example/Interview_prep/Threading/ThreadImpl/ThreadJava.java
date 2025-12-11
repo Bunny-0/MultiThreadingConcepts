@@ -24,11 +24,14 @@ public class ThreadJava {
         ExecutorService threadPool=Executors.newFixedThreadPool(5);
 
         threadPool.execute(runnableThread);
+       Future<String> data= threadPool.submit(callableThread);
+       threadPool.submit(runnableThread);
+       System.out.println("data for callable obj is"+data.get());
 
         Future<String> future=threadPool.submit(callableThread);
         System.out.println(future.get());
         System.out.println("Current thread is "+ Thread.currentThread().getName()+" nd state is "+Thread.currentThread().getState());
-
+        threadPool.shutdown();
 
     }
 }
