@@ -1,9 +1,6 @@
 package org.example.Interview_prep.Threading.Executor;
 
-import java.util.concurrent.CompletableFuture;
-import java.util.concurrent.ExecutionException;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
+import java.util.concurrent.*;
 
 import static java.awt.desktop.UserSessionEvent.Reason.LOCK;
 
@@ -12,7 +9,7 @@ public class Completable_Future {
     public static void main(String[] args) throws ExecutionException, InterruptedException {
 
         ExecutorService cahce= Executors.newCachedThreadPool();
-
+        CountDownLatch latch=new CountDownLatch(3);
 
 //        for(int i=0;i<100;i++){
 //
@@ -78,6 +75,7 @@ public class Completable_Future {
             try {
                 Thread.sleep(300);
                 System.out.println("Return future for account data By "+Thread.currentThread().getName());
+                latch.countDown();
                 return "account1";
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
@@ -88,12 +86,14 @@ public class Completable_Future {
             Integer amount=getAmount(account);
              amount=amount-tax;
              updateAmount(account,amount);
+            latch.countDown();
             System.out.println("balance fetch done by "+Thread.currentThread().getName());
 
         }).thenRun(()->{
-
+            latch.countDown();
             System.out.println("Done By "+Thread.currentThread().getName());
         });
+        latch.await();
         cahce.shutdown();
 
 

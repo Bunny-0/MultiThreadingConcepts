@@ -22,7 +22,7 @@ public class ThreadJava {
      //   th2.start();
 
         ExecutorService threadPool=Executors.newFixedThreadPool(5);
-
+        CountDownLatch latch=new CountDownLatch(3);
         threadPool.execute(runnableThread);
        Future<String> data= threadPool.submit(callableThread);
        threadPool.submit(runnableThread);

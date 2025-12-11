@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dce0d086-c49d-4e6c-b7b5-84ea60bdbdc2" name="Changes" comment="Java Imp Concepts">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Interview_prep/Threading/Executor/Completable_Future.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Interview_prep/Threading/Locking/Communication/ProducerConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Interview_prep/Threading/Locking/Extrinsic/RetLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Interview_prep/Threading/Locking/intrinsic/IntrinsicLock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Interview_prep/Threading/Executor/Completable_Future.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Interview_prep/Threading/Executor/Completable_Future.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Interview_prep/Threading/ThreadImpl/ThreadJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Interview_prep/Threading/ThreadImpl/ThreadJava.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,13 +63,16 @@
     "Application.EvenOdd (2).executor": "Run",
     "Application.EvenOdd (3).executor": "Run",
     "Application.EvenOdd.executor": "Run",
+    "Application.IntrinsicLock.executor": "Run",
     "Application.Latcher.executor": "Run",
     "Application.Palindrome.executor": "Run",
     "Application.ProCon (1).executor": "Run",
     "Application.ProCon (2).executor": "Run",
     "Application.ProCon (3).executor": "Run",
     "Application.ProCon.executor": "Run",
+    "Application.ProducerConsumer.executor": "Run",
     "Application.RemoveDuplicates.executor": "Run",
+    "Application.RetLock.executor": "Run",
     "Application.Seq.executor": "Run",
     "Application.Sort.executor": "Run",
     "Application.SumOfDigits.executor": "Run",
@@ -91,7 +97,7 @@
       <recent name="org.example.Revision.Iterator" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThreadJava">
+  <component name="RunManager" selected="Application.Completable_Future">
     <configuration name="Completable_Future" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Interview_prep.Threading.Executor.Completable_Future" />
       <module name="MultiThreading" />
@@ -105,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeeDto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Interview_prep.Lambda.EmployeeDto" />
+    <configuration name="IntrinsicLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Interview_prep.Threading.Locking.intrinsic.IntrinsicLock" />
       <module name="MultiThreading" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Interview_prep.Lambda.*" />
+          <option name="PATTERN" value="org.example.Interview_prep.Threading.Locking.intrinsic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +124,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumOfDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Interview_prep.Lambda.SumOfDigits" />
+    <configuration name="ProducerConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Interview_prep.Threading.Locking.Communication.ProducerConsumer" />
       <module name="MultiThreading" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Interview_prep.Lambda.*" />
+          <option name="PATTERN" value="org.example.Interview_prep.Threading.Locking.Communication.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RetLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Interview_prep.Threading.Locking.Extrinsic.RetLock" />
+      <module name="MultiThreading" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.Interview_prep.Threading.Locking.Extrinsic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,26 +163,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="comparision" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Revision.comparision.comparision" />
-      <module name="MultiThreading" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.Revision.comparision.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ThreadJava" />
         <item itemvalue="Application.Completable_Future" />
-        <item itemvalue="Application.comparision" />
-        <item itemvalue="Application.EmployeeDto" />
-        <item itemvalue="Application.SumOfDigits" />
+        <item itemvalue="Application.ProducerConsumer" />
+        <item itemvalue="Application.RetLock" />
+        <item itemvalue="Application.IntrinsicLock" />
+        <item itemvalue="Application.ThreadJava" />
       </list>
     </recent_temporary>
   </component>
@@ -303,7 +309,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765421062291</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Java Imp Concepts">
+      <option name="closed" value="true" />
+      <created>1765429575990</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1765429575990</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
